@@ -1,0 +1,161 @@
+@media screen and (max-width: 767px) {
+    .footer__about-us{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #7799bb;
+        div {
+            img {
+                margin: 50px 0;
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    margin: 10px;
+                }
+            }
+            p {
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.8);
+                font-weight: bold;
+                line-height: 1.875;
+                text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin-top: 50px;
+                padding-left: 0px;
+                li {
+                    margin-bottom: 10px;
+                    text-align: center;
+                    a {
+                        font-size: 16px;
+                        color: rgba(255, 255, 255, 0.8);
+                        font-weight: bold;
+                        line-height: 1.875;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .text__about-us-domain {
+        margin: 50px 0px;
+    }
+    .footer__copyright {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #acacac;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 5;
+            margin: 0px;
+        }
+        div {
+            width: 100%;
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                list-style-type: none;
+                padding-left: 0px;
+                margin: 0px 100px;
+                li {
+                    a {
+                        font-size: 14px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        line-height: 5;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer__about-us{
+        padding-left: 245px;
+        padding-right: 245px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #7799bb;
+        height: 584px;
+        div {
+            img {
+                margin-bottom: 50px;
+            }
+            div {
+                a {
+                    padding-right: 23px;
+                }
+            }
+            p {
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.8);
+                font-weight: bold;
+                line-height: 1.875;
+            }
+            ul {
+                list-style-type: none;
+                li {
+                    margin-bottom: 35px;
+                    a {
+                        font-size: 16px;
+                        color: rgba(255, 255, 255, 0.8);
+                        font-weight: bold;
+                        line-height: 1.875;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .text__about-us-domain {
+        margin: 50px 0px;
+    }
+    .footer__copyright {
+        padding-left: 245px;
+        padding-right: 245px;
+        height: 90px;
+        background-color: #acacac;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 5;
+        }
+        div {
+            ul {
+                display: flex;
+                list-style-type: none;
+                li {
+                    margin-left: 35px;
+                    a {
+                        font-size: 14px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        line-height: 5;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

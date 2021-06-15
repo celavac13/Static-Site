@@ -1,0 +1,34 @@
+{
+    "logo":{
+       "name":"logo",
+       "image":"images/logo.png"
+    },
+    "ourCompany":{
+       "name":"Our company",
+       "image":"../images/Our company.png"
+    },
+    "ourHistory":{
+       "name":"Our history",
+       "image":"../images/Our history.png"
+    },
+    "signature":{
+       "name":"Signature",
+       "image":"../images/Signature.png"
+    },
+    "sliderImage1":{
+       "name":"Slider image 1",
+       "image":"../images/Slide 1.png"
+    },
+    "sliderImage2":{
+       "name":"Slider image 2",
+       "image":"../images/Slide 2.png"
+    },
+    "sliderImage3":{
+       "name":"Slider image 3",
+       "image":"../images/Slide 3.png"
+    },
+    "sliderImage4":{
+       "name":"Slider image 4",
+       "image":"../images/Slide 4.png"
+    }
+ }
